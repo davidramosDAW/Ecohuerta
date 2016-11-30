@@ -1,7 +1,7 @@
 <?php
 
 /*    Datos de conexión    */
-$host="localhost";
-$bd="ecohuerta";
-$usuario="dramos";
+$host="mysql.hostinger.es";
+$bd="u591903590_ecohu";
+$usuario="u591903590_ecohu";
 $pass="dramos";
