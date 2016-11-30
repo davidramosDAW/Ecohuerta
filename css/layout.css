@@ -1,0 +1,191 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+body{
+   background-color: #E2DCD6;
+}
+
+
+div#autenticacion{
+    width: 26%;
+    height: 50px;
+    float: right;
+ }
+
+
+
+header {
+    width: 100%;
+    height: 160px;
+    background-color: #E9CA59;
+    box-shadow: 0px 0px 10px 3px black;
+    margin-bottom: 1%;
+
+}
+
+header > div:first-child{
+
+    width: 100%;
+    background-image: url(../img/logo.png); height: 100%; width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+section {
+    width: 20%;
+    margin:auto;
+    background-color: #E2DCD6;
+    float: left;
+}
+
+
+section #menu_lateral{
+    width: 70%;
+    float: left;
+    margin-top:60px;
+}
+article {
+    height:800px;
+    width: 80%;
+    float: right;
+
+}
+.bordemenu{
+    padding: 2%;
+    width:80%;
+    margin:auto;
+    border:1px solid black;
+    box-shadow: 0px 0px 30px 3px black;
+}
+
+
+footer {
+
+    clear: both;
+    width: 100%;
+    height: 50px;
+    background-color: #E9CA59;
+}
+/*----------------------------------- MEDIA QUERIES ----------------------------------------*/
+@media (max-width: 1366px){
+    #contenedor {
+        height: 1000px;
+        width:100%;
+    }
+
+    header > div:first-child{
+        background-image: url(../img/logo_peque.png);
+    }
+
+}
+
+@media (min-width: 1367px){
+    #contenedor {
+        height: 1000px;
+        width:100%;
+    }
+
+
+}
+
+/*----------------------------------- MENU ----------------------------------------*/
+.menu{
+    padding:0;
+    list-style:none;
+    width:100%;
+    font-size:18px;
+    background:transparent;
+    /*border: 1px solid rgba(0,0,0,0.8);*/
+    font-family: 'Lato', sans-serif;
+}
+
+.menu li a{
+    display: block;
+
+    border-bottom: 2px solid #D19A29;
+    /*border-top: 1px solid rgba(255,255,255, 0.2);*/
+    background:transparent;
+    text-decoration:none;
+    color:black;
+    text-shadow: 1px 0px 1px rgba(0,0,0,0.2);
+    padding:10px;
+    padding-left:20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.menu li ul li a{
+    font-size:14px;
+    color:black;
+    text-shadow: 1px 0px 1px rgba(255,255,255,0.5);
+    font-family: 'Lato', sans-serif;
+
+}
+
+.menu li a:hover{
+    -moz-transition: background 0.3s ease-in;
+    -webkit-transition: background 0.3s ease-in;
+    -o-transition: background 0.3s ease-in;
+}
+
+.menu ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    height:0;
+    overflow: hidden;
+    transition:1s;
+    -moz-transition:1s;
+    -webkit-transition:1s;
+}
+
+.menu li:hover ul{
+    height:120px;
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+
+.menu ul li a{
+    background:#E9CA59;
+}
+
+.menu ul li a:hover {
+    font-size: 0.9rem;
+    color:black;
+    -moz-transition: color 0.4s ease;
+    -webkit-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+}
+/*----------------------------------- caja login  ----------------------------------------*/
+table#tabla_autenticacion{
+    border:1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px black;
+
+    margin : 10px 0 0 10px;
+}
+table#tabla_autenticacion td {
+    text-align: center;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    height: auto;
+}
+
+p#icon_adduser {
+    float: left;
+    width: 50px;
+    height: 32px;
+    list-style: none;
+    background-image: url("/primer_trimestre/img/add-user.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
