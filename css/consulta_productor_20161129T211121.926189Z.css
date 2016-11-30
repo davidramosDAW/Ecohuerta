@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Lato;
+    font-size: 18px;
+}
+#consulta_productor{
+    width: 100%;
+    height: 800px;
+}
+/* Tabla para consultar */
+table#tablaformu{
+    width: 40%;
+    border: none;
+    margin: auto;
+}
+/* Tabla para consultar */
+#tablaformu td:first-child{
+    text-align: right;
+    font-weight: bold;
+    white-space: nowrap;
+}
+/* Tabla para consultar */
+#tablaformu td:last-child{
+    text-align: left;
+    font-weight: bold;
+    padding-left: 10px;
+    white-space: nowrap;
+}
+/* ultimo hijo de tr a su td lo centras al centro */
+#tablaformu tr:last-child td{
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+
+/* Tabla para mostrar */
+
+table.tabla_muestra_productor{
+    width: 90%;
+    margin:auto;
+    border-collapse: collapse;
+    background-color: #B98250;
+}
+/* Ancho de las TR */
+table.tabla_muestra_productor tr{
+    height:30px;
+}
+/* Encabezado  */
+table.tabla_muestra_productor thead {
+    background-color: #6D4724;
+    color:#F0F2F2;
+    font-weight: bold;
+}
+/* Hover de filas */
+.tabla_muestra_productor tbody>tr:hover td{
+    background-color:#FFC188;
+    font-weight: bold;
+}
+/* formatos */
+.tabla_muestra_productor tr td{
+    border:solid 1px black;
+    padding: 1px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+button {
+    padding:6px;
+    width: 155px;
+    background-color:ActiveBorder;
+}
+
+input[type=submit],[type=reset]{
+    padding:6px;
+    width: 155px;
+    background-color:ActiveBorder;
+}
+
+input[type=text],[type=number],[type=float]{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    background-color: transparent;
+    border:none;
+    border-bottom: 2px solid #D19A29;
+    font-size: 1rem;
+}
+select{
+
+    font-size: 1.2rem;
+    background-color: transparent;
+    width: 200px;
+    height: 30px;
+    border:none;
+    border-bottom: 2px solid #D19A29;
+
+}
+
+::-webkit-input-placeholder {
+    color:    black;
+    font-size: 0.9rem;
+    padding-left: 40px;
+    line-height: normal;
+    opacity:  1;
+}
+:-moz-placeholder {
+    color:    #6f6f6f;
+    font-size: 0.9rem;
+    padding-left: 40px;
+    line-height: normal;
+    opacity:  1;
+}
+::-moz-placeholder {
+    color:    #6f6f6f;
+    font-size: 0.9rem;
+    padding-left: 40px;
+    line-height: normal;
+    opacity:  1;
+}
+:-ms-input-placeholder {
+    color:    #6f6f6f;
+    font-size: 0.9rem;
+    padding-left: 40px;
+    line-height: normal;
+    opacity:  1;
+}
