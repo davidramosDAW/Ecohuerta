@@ -87,7 +87,7 @@ $root = realpath($_SERVER["DOCUMENT_ROOT"]);
         <?php include_once("..//resources/estructura/footer.php") ?>
     </footer>
 </div>
-<script src="/primer_trimestre/js/ecohuerta.js"></script>
+<script src="../js/ecohuerta.js"></script>
 </body>
 </html>
 
