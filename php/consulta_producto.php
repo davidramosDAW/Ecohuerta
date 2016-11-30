@@ -92,7 +92,7 @@ $root = realpath($_SERVER["DOCUMENT_ROOT"]);
 
     </footer>
 </div>
-<script src="/primer_trimestre/js/ecohuerta.js"></script>
+<script src="../js/ecohuerta.js"></script>
 </body>
 </html>
 <?php
